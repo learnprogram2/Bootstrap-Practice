@@ -1,0 +1,229 @@
+/**{
+	margin:0;padding: 0;border:0;list-style: none;border: 0;
+	text-decoration: none;
+}*//*用bootstrap不需要重写了*/
+
+.header{
+	padding-top: 20px;padding-bottom: 10px;
+}
+.header .span8{
+	text-align: right;
+}
+.header .link ul, 
+.header .link .search ,
+.header .link .search form ,
+.header .link .lang{
+	display: inline;
+}
+.header .link ul li{
+	display: inline;margin-right: 10px;
+}
+.header .span8 li span{
+	display: inline-block;width: 3px;height: 17px;background-color: #d7d6d5;
+	position: relative;top: 4px;
+}
+
+.header .span8 .search{
+	height: 26px;display: inline-block; width: 250px;background-color: #424242;
+	border-radius: 13px;position: relative;top: 8px;
+}
+.header .span8 .search input[type=text]{
+	width: 168px;height: 12px;background-color: #fff;border:0;border-radius: 10px;
+	float: left;margin-top: 3px;margin-left: 3px;
+}
+.header .span8 .search input[type=submit]{
+	width: 61px;height: 20px;border-radius: 10px;margin-top: 3px;border:0;
+	float: left;margin-left: 5px;background:url("../images/hdico9.png");
+}
+.header .span8 .lang{
+	display:inline-block;position: relative;width: 42px;
+}
+.header .span8 .lang:after{
+	width: 3px;height: 17px;background-color: #d7d6d5;display: inline-block;
+	position: absolute;left: 2px;top: 3px;
+	content: "";
+}
+
+
+/*naver*/
+.naver{
+	height: 60px;background-color: #ffcc00;
+	font-size: 21.15px;line-height: 60px;	
+}
+.naver h2{
+	width: 220px;float: left;font-size: 27px;color: #fff;
+	background-color: #000;text-align: center;height: 100%;
+	margin:0;font-weight: normal;line-height: 60px;
+}
+.naver ul{
+	width: 720px;float: right;margin-left: 0;
+	margin-bottom: 0;
+}
+.naver ul li{
+	width: 25%;float: left;line-height: 60px;
+	list-style: none;text-align: center;
+	position: relative;
+}
+.naver ul li:after{
+	width: 1px;height: 25px;background-color: #000;
+	content: "";position: absolute;right: 0;top: 50%;margin-top: -12.5px;
+}/*分隔线*/
+.naver ul li:last-child:after{
+	display: none;
+}
+.naver ul li a{
+	color: #000000;display: inline-block;padding-left: 60px;
+	background:url("../images/navico2.png") left center no-repeat;
+}
+.naver ul li:nth-child(2) a{
+	background:url("../images/navico3.png") left center no-repeat;
+}
+.naver ul li:nth-child(3) a{
+	background:url("../images/navico4.png") left center no-repeat;
+}
+.naver ul li:nth-child(4) a{
+	background:url("../images/navico5.png") left center no-repeat;
+}
+
+/*welcome*/
+.wel{
+	height: 450px;overflow: hidden;
+	background-color: #fff;
+}
+.wel .side-nav{
+	width: 220px;float: left;margin-top: 25px;
+}
+.wel .side-nav>ul>li{
+	background: url("../images/welico2.png") right 40px center no-repeat;
+	height: 36px;
+}
+.wel .side-nav>ul>li>a{
+	height: 24px;color:#333;line-height: 24px;
+	background: url("../images/welico3.png") left 30px center no-repeat;
+	padding-left: 80px;
+}
+.wel .side-nav>ul>li:nth-child(2)>a{
+	background-image: url("../images/welico4.png");
+}/*更换图标*/
+.wel .side-nav>ul>li:nth-child(3)>a{
+	background-image: url("../images/welico5.png");
+}
+.wel .side-nav>ul>li:nth-child(4)>a{
+	background-image: url("../images/welico6.png");
+}
+.wel .side-nav>ul>li:nth-child(5)>a{
+	background-image: url("../images/welico7.png");
+}
+.wel .side-nav>ul>li:nth-child(6)>a{
+	background-image: url("../images/welico8.png");
+}
+.wel .side-nav>ul>li:nth-child(7)>a{
+	background-image: url("../images/welico9.png");
+}
+.wel .side-nav>ul>li:nth-child(8)>a{
+	background-image: url("../images/welico10.png");
+}
+.wel .side-nav>ul>li:nth-child(9)>a{
+	background-image: url("../images/welico11.png");
+}
+.wel .side-nav>ul>li:nth-child(10)>a{
+	background-image: url("../images/welico12.png");
+}
+.wel .side-nav>ul>li:nth-child(11)>a{
+	background-image: url("../images/welico13.png");
+}
+.wel .side-nav>ul>li:nth-child(12)>a{
+	background-image: url("../images/welico14.png");
+}
+.wel .nav-pills>li.active,
+.wel .nav-pills>li:hover{
+	background-color: #ffcc00 ;
+}
+.wel .nav-pills>.active>a{
+}
+/*二级菜单重写*/
+.wel .dropdown-menu{
+	top:0%;left: 220px;background-color: #000;color: #ffffff;
+	border-radius: 0;
+}
+.wel .dropdown-menu a{color: #fff;}
+.wel .dropdown-menu ul{
+	width: 80px;
+}
+.wel .dropdown-menu li{
+	border-bottom: #fff dashed 1px;margin:0 10px;
+}
+.nav-pills .open .dropdown-toggle{
+	color: #000;background-color: #ffcc00;border-color: #ffcc00;
+}
+
+
+.wel .slides{
+	width: 730px;float: left;
+}
+/*slide重写*/
+.wel .carousel-indicators{
+	bottom: 15px;height: 10px;top: auto;
+}
+.wel .ad{
+	width: 220px;float: left;
+}
+
+/*hot 行*/
+.hots{
+	margin-top: 20px;
+}
+.hots .head{
+	height: 38px;line-height: 40px;font-size: 22px;color: #fff;
+	background: url("../images/hotbg1.png") left 220px bottom repeat-x;
+	position: relative;border-top: #e3e3e3 solid 1px;
+}
+.hots .head .txt{
+	background: #d60019;width: 230px;padding-left: 15px;
+	margin-top: -1px;
+}
+.hots .head .txt span{
+	display: inline-block;width:5px;height: 20px;
+	background: #fff; margin:-2px 14px;line-height: 40px;
+}
+.hots .head a{color: #fff;}
+.hots .head a .more{
+	position: absolute;right: 0;top: 0;
+	height: 40px;width: 90px;padding-left: 20px;
+	background: url("../images/hotico1.png") left center no-repeat;
+}
+.hots .body{
+	padding: 40px 30px 0 30px;background-color: #fff;
+	border:#e3e3e3 solid 1px;
+}
+.hots .body .row-fluid .span2 a{
+	color: #454545;font-size: 15px;
+}
+.hots .body .row-fluid .span2 .img{
+	height: 130px;
+}
+.hots .body .row-fluid .span2 .txt{
+	height: 60px;text-align: center;
+}
+
+/*fre Meida8 的背景颜色和背景重写*/
+.fre .head{
+	background: url("../images/frebg1.png") left 220px bottom repeat-x;
+}
+.fre .head .txt{
+	background-color: #88b500;
+}
+.med .head{
+	background: url("../images/medbg1.png") left 220px bottom repeat-x;
+}
+.med .head .txt{
+	background-color: #32cccc;
+}
+
+/*foot*/
+.foot{
+	line-height: 34px;font-size: 16px;color: #000;
+	text-align: center;margin-top: 36px;
+	background-color: #ffcc00;
+}
+
